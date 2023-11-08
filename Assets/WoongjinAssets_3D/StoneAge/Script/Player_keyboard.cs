@@ -43,12 +43,12 @@ public class Player_keyboard : MonoBehaviour
             Debug.Log("manager.Action");
         }
         
-        // °Å¸® Ã¼Å© ¹Ì¿Ï¼ºÀÌ¶ó ¿Ï¼ºÇØÁÖ¼¼¿é
+        // ï¿½Å¸ï¿½ Ã¼Å© ï¿½Ì¿Ï¼ï¿½ï¿½Ì¶ï¿½ ï¿½Ï¼ï¿½ï¿½ï¿½ï¿½Ö¼ï¿½ï¿½ï¿½
         distance = Vector3.Distance(NPC.transform.position, transform.position);
 
         if (distance <= withNPCDistance)
         {
-            scanObject = .collider.gameObject;
+            scanObject = GetComponent<Collider>().gameObject;
             talkButton.gameObject.SetActive(true);
         }
     }

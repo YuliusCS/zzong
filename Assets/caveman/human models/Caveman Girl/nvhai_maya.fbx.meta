@@ -1,175 +1,483 @@
 fileFormatVersion: 2
 guid: 85a76a20675869a41b82819caca2ee1f
 ModelImporter:
-  serializedVersion: 23
-  fileIDToRecycleName:
-    100000: gaiyi
-    100002: Head
-    100004: HeadTop_End
-    100006: Hips
-    100008: LeftArm
-    100010: LeftFoot
-    100012: LeftForeArm
-    100014: LeftHand
-    100016: LeftHandIndex1
-    100018: LeftHandIndex2
-    100020: LeftHandIndex3
-    100022: LeftHandIndex4
-    100024: LeftHandMiddle1
-    100026: LeftHandMiddle2
-    100028: LeftHandMiddle3
-    100030: LeftHandMiddle4
-    100032: LeftHandPinky1
-    100034: LeftHandPinky2
-    100036: LeftHandPinky3
-    100038: LeftHandPinky4
-    100040: LeftHandRing1
-    100042: LeftHandRing2
-    100044: LeftHandRing3
-    100046: LeftHandRing4
-    100048: LeftHandThumb1
-    100050: LeftHandThumb2
-    100052: LeftHandThumb3
-    100054: LeftHandThumb4
-    100056: LeftLeg
-    100058: LeftShoulder
-    100060: LeftToe_End
-    100062: LeftToeBase
-    100064: LeftUpLeg
-    100066: mRightToeBase
-    100068: Neck
-    100070: //RootNode
-    100072: RightArm
-    100074: RightFoot
-    100076: RightForeArm
-    100078: RightHand
-    100080: RightHandIndex1
-    100082: RightHandIndex2
-    100084: RightHandIndex3
-    100086: RightHandIndex4
-    100088: RightHandMiddle1
-    100090: RightHandMiddle2
-    100092: RightHandMiddle3
-    100094: RightHandMiddle4
-    100096: RightHandPinky1
-    100098: RightHandPinky2
-    100100: RightHandPinky3
-    100102: RightHandPinky4
-    100104: RightHandRing1
-    100106: RightHandRing2
-    100108: RightHandRing3
-    100110: RightHandRing4
-    100112: RightHandThumb1
-    100114: RightHandThumb2
-    100116: RightHandThumb3
-    100118: RightHandThumb4
-    100120: RightLeg
-    100122: RightShoulder
-    100124: RightToe_End
-    100126: RightUpLeg
-    100128: Spine
-    100130: Spine1
-    100132: Spine2
-    100134: "\u5BF9\u8C61001"
-    400000: gaiyi
-    400002: Head
-    400004: HeadTop_End
-    400006: Hips
-    400008: LeftArm
-    400010: LeftFoot
-    400012: LeftForeArm
-    400014: LeftHand
-    400016: LeftHandIndex1
-    400018: LeftHandIndex2
-    400020: LeftHandIndex3
-    400022: LeftHandIndex4
-    400024: LeftHandMiddle1
-    400026: LeftHandMiddle2
-    400028: LeftHandMiddle3
-    400030: LeftHandMiddle4
-    400032: LeftHandPinky1
-    400034: LeftHandPinky2
-    400036: LeftHandPinky3
-    400038: LeftHandPinky4
-    400040: LeftHandRing1
-    400042: LeftHandRing2
-    400044: LeftHandRing3
-    400046: LeftHandRing4
-    400048: LeftHandThumb1
-    400050: LeftHandThumb2
-    400052: LeftHandThumb3
-    400054: LeftHandThumb4
-    400056: LeftLeg
-    400058: LeftShoulder
-    400060: LeftToe_End
-    400062: LeftToeBase
-    400064: LeftUpLeg
-    400066: mRightToeBase
-    400068: Neck
-    400070: //RootNode
-    400072: RightArm
-    400074: RightFoot
-    400076: RightForeArm
-    400078: RightHand
-    400080: RightHandIndex1
-    400082: RightHandIndex2
-    400084: RightHandIndex3
-    400086: RightHandIndex4
-    400088: RightHandMiddle1
-    400090: RightHandMiddle2
-    400092: RightHandMiddle3
-    400094: RightHandMiddle4
-    400096: RightHandPinky1
-    400098: RightHandPinky2
-    400100: RightHandPinky3
-    400102: RightHandPinky4
-    400104: RightHandRing1
-    400106: RightHandRing2
-    400108: RightHandRing3
-    400110: RightHandRing4
-    400112: RightHandThumb1
-    400114: RightHandThumb2
-    400116: RightHandThumb3
-    400118: RightHandThumb4
-    400120: RightLeg
-    400122: RightShoulder
-    400124: RightToe_End
-    400126: RightUpLeg
-    400128: Spine
-    400130: Spine1
-    400132: Spine2
-    400134: "\u5BF9\u8C61001"
-    2100000: 'Material #84'
-    2100002: 'Material #72'
-    4300000: gaiyi
-    4300002: "\u5BF9\u8C61001"
-    7400000: walk
-    7400002: run
-    7400004: be hit
-    7400006: scream
-    7400008: dance
-    7400010: die
-    7400012: jump
-    7400014: attack
-    7400016: disappointed
-    7400018: idle
-    7400020: greet
-    9500000: //RootNode
-    13700000: gaiyi
-    13700002: "\u5BF9\u8C61001"
+  serializedVersion: 21300
+  internalIDToNameTable:
+  - first:
+      1: 100000
+    second: gaiyi
+  - first:
+      1: 100002
+    second: Head
+  - first:
+      1: 100004
+    second: HeadTop_End
+  - first:
+      1: 100006
+    second: Hips
+  - first:
+      1: 100008
+    second: LeftArm
+  - first:
+      1: 100010
+    second: LeftFoot
+  - first:
+      1: 100012
+    second: LeftForeArm
+  - first:
+      1: 100014
+    second: LeftHand
+  - first:
+      1: 100016
+    second: LeftHandIndex1
+  - first:
+      1: 100018
+    second: LeftHandIndex2
+  - first:
+      1: 100020
+    second: LeftHandIndex3
+  - first:
+      1: 100022
+    second: LeftHandIndex4
+  - first:
+      1: 100024
+    second: LeftHandMiddle1
+  - first:
+      1: 100026
+    second: LeftHandMiddle2
+  - first:
+      1: 100028
+    second: LeftHandMiddle3
+  - first:
+      1: 100030
+    second: LeftHandMiddle4
+  - first:
+      1: 100032
+    second: LeftHandPinky1
+  - first:
+      1: 100034
+    second: LeftHandPinky2
+  - first:
+      1: 100036
+    second: LeftHandPinky3
+  - first:
+      1: 100038
+    second: LeftHandPinky4
+  - first:
+      1: 100040
+    second: LeftHandRing1
+  - first:
+      1: 100042
+    second: LeftHandRing2
+  - first:
+      1: 100044
+    second: LeftHandRing3
+  - first:
+      1: 100046
+    second: LeftHandRing4
+  - first:
+      1: 100048
+    second: LeftHandThumb1
+  - first:
+      1: 100050
+    second: LeftHandThumb2
+  - first:
+      1: 100052
+    second: LeftHandThumb3
+  - first:
+      1: 100054
+    second: LeftHandThumb4
+  - first:
+      1: 100056
+    second: LeftLeg
+  - first:
+      1: 100058
+    second: LeftShoulder
+  - first:
+      1: 100060
+    second: LeftToe_End
+  - first:
+      1: 100062
+    second: LeftToeBase
+  - first:
+      1: 100064
+    second: LeftUpLeg
+  - first:
+      1: 100066
+    second: mRightToeBase
+  - first:
+      1: 100068
+    second: Neck
+  - first:
+      1: 100070
+    second: //RootNode
+  - first:
+      1: 100072
+    second: RightArm
+  - first:
+      1: 100074
+    second: RightFoot
+  - first:
+      1: 100076
+    second: RightForeArm
+  - first:
+      1: 100078
+    second: RightHand
+  - first:
+      1: 100080
+    second: RightHandIndex1
+  - first:
+      1: 100082
+    second: RightHandIndex2
+  - first:
+      1: 100084
+    second: RightHandIndex3
+  - first:
+      1: 100086
+    second: RightHandIndex4
+  - first:
+      1: 100088
+    second: RightHandMiddle1
+  - first:
+      1: 100090
+    second: RightHandMiddle2
+  - first:
+      1: 100092
+    second: RightHandMiddle3
+  - first:
+      1: 100094
+    second: RightHandMiddle4
+  - first:
+      1: 100096
+    second: RightHandPinky1
+  - first:
+      1: 100098
+    second: RightHandPinky2
+  - first:
+      1: 100100
+    second: RightHandPinky3
+  - first:
+      1: 100102
+    second: RightHandPinky4
+  - first:
+      1: 100104
+    second: RightHandRing1
+  - first:
+      1: 100106
+    second: RightHandRing2
+  - first:
+      1: 100108
+    second: RightHandRing3
+  - first:
+      1: 100110
+    second: RightHandRing4
+  - first:
+      1: 100112
+    second: RightHandThumb1
+  - first:
+      1: 100114
+    second: RightHandThumb2
+  - first:
+      1: 100116
+    second: RightHandThumb3
+  - first:
+      1: 100118
+    second: RightHandThumb4
+  - first:
+      1: 100120
+    second: RightLeg
+  - first:
+      1: 100122
+    second: RightShoulder
+  - first:
+      1: 100124
+    second: RightToe_End
+  - first:
+      1: 100126
+    second: RightUpLeg
+  - first:
+      1: 100128
+    second: Spine
+  - first:
+      1: 100130
+    second: Spine1
+  - first:
+      1: 100132
+    second: Spine2
+  - first:
+      1: 100134
+    second: "\u5BF9\u8C61001"
+  - first:
+      4: 400000
+    second: gaiyi
+  - first:
+      4: 400002
+    second: Head
+  - first:
+      4: 400004
+    second: HeadTop_End
+  - first:
+      4: 400006
+    second: Hips
+  - first:
+      4: 400008
+    second: LeftArm
+  - first:
+      4: 400010
+    second: LeftFoot
+  - first:
+      4: 400012
+    second: LeftForeArm
+  - first:
+      4: 400014
+    second: LeftHand
+  - first:
+      4: 400016
+    second: LeftHandIndex1
+  - first:
+      4: 400018
+    second: LeftHandIndex2
+  - first:
+      4: 400020
+    second: LeftHandIndex3
+  - first:
+      4: 400022
+    second: LeftHandIndex4
+  - first:
+      4: 400024
+    second: LeftHandMiddle1
+  - first:
+      4: 400026
+    second: LeftHandMiddle2
+  - first:
+      4: 400028
+    second: LeftHandMiddle3
+  - first:
+      4: 400030
+    second: LeftHandMiddle4
+  - first:
+      4: 400032
+    second: LeftHandPinky1
+  - first:
+      4: 400034
+    second: LeftHandPinky2
+  - first:
+      4: 400036
+    second: LeftHandPinky3
+  - first:
+      4: 400038
+    second: LeftHandPinky4
+  - first:
+      4: 400040
+    second: LeftHandRing1
+  - first:
+      4: 400042
+    second: LeftHandRing2
+  - first:
+      4: 400044
+    second: LeftHandRing3
+  - first:
+      4: 400046
+    second: LeftHandRing4
+  - first:
+      4: 400048
+    second: LeftHandThumb1
+  - first:
+      4: 400050
+    second: LeftHandThumb2
+  - first:
+      4: 400052
+    second: LeftHandThumb3
+  - first:
+      4: 400054
+    second: LeftHandThumb4
+  - first:
+      4: 400056
+    second: LeftLeg
+  - first:
+      4: 400058
+    second: LeftShoulder
+  - first:
+      4: 400060
+    second: LeftToe_End
+  - first:
+      4: 400062
+    second: LeftToeBase
+  - first:
+      4: 400064
+    second: LeftUpLeg
+  - first:
+      4: 400066
+    second: mRightToeBase
+  - first:
+      4: 400068
+    second: Neck
+  - first:
+      4: 400070
+    second: //RootNode
+  - first:
+      4: 400072
+    second: RightArm
+  - first:
+      4: 400074
+    second: RightFoot
+  - first:
+      4: 400076
+    second: RightForeArm
+  - first:
+      4: 400078
+    second: RightHand
+  - first:
+      4: 400080
+    second: RightHandIndex1
+  - first:
+      4: 400082
+    second: RightHandIndex2
+  - first:
+      4: 400084
+    second: RightHandIndex3
+  - first:
+      4: 400086
+    second: RightHandIndex4
+  - first:
+      4: 400088
+    second: RightHandMiddle1
+  - first:
+      4: 400090
+    second: RightHandMiddle2
+  - first:
+      4: 400092
+    second: RightHandMiddle3
+  - first:
+      4: 400094
+    second: RightHandMiddle4
+  - first:
+      4: 400096
+    second: RightHandPinky1
+  - first:
+      4: 400098
+    second: RightHandPinky2
+  - first:
+      4: 400100
+    second: RightHandPinky3
+  - first:
+      4: 400102
+    second: RightHandPinky4
+  - first:
+      4: 400104
+    second: RightHandRing1
+  - first:
+      4: 400106
+    second: RightHandRing2
+  - first:
+      4: 400108
+    second: RightHandRing3
+  - first:
+      4: 400110
+    second: RightHandRing4
+  - first:
+      4: 400112
+    second: RightHandThumb1
+  - first:
+      4: 400114
+    second: RightHandThumb2
+  - first:
+      4: 400116
+    second: RightHandThumb3
+  - first:
+      4: 400118
+    second: RightHandThumb4
+  - first:
+      4: 400120
+    second: RightLeg
+  - first:
+      4: 400122
+    second: RightShoulder
+  - first:
+      4: 400124
+    second: RightToe_End
+  - first:
+      4: 400126
+    second: RightUpLeg
+  - first:
+      4: 400128
+    second: Spine
+  - first:
+      4: 400130
+    second: Spine1
+  - first:
+      4: 400132
+    second: Spine2
+  - first:
+      4: 400134
+    second: "\u5BF9\u8C61001"
+  - first:
+      21: 2100000
+    second: Material #84
+  - first:
+      21: 2100002
+    second: Material #72
+  - first:
+      43: 4300000
+    second: gaiyi
+  - first:
+      43: 4300002
+    second: "\u5BF9\u8C61001"
+  - first:
+      74: 7400000
+    second: walk
+  - first:
+      74: 7400002
+    second: run
+  - first:
+      74: 7400004
+    second: be hit
+  - first:
+      74: 7400006
+    second: scream
+  - first:
+      74: 7400008
+    second: dance
+  - first:
+      74: 7400010
+    second: die
+  - first:
+      74: 7400012
+    second: jump
+  - first:
+      74: 7400014
+    second: attack
+  - first:
+      74: 7400016
+    second: disappointed
+  - first:
+      74: 7400018
+    second: idle
+  - first:
+      74: 7400020
+    second: greet
+  - first:
+      95: 9500000
+    second: //RootNode
+  - first:
+      137: 13700000
+    second: gaiyi
+  - first:
+      137: 13700002
+    second: "\u5BF9\u8C61001"
   externalObjects:
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
-      name: 'Material #72'
+      name: Material #72
     second: {fileID: 2100000, guid: 88430dccaf0a90a459ec67fb03c3b4ec, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
-      name: 'Material #84'
+      name: Material #84
     second: {fileID: 2100000, guid: e9218359dedb628409fdaeba48b86dc9, type: 2}
   materials:
-    importMaterials: 1
+    materialImportMode: 1
     materialName: 0
     materialSearch: 1
     materialLocation: 0
@@ -178,6 +486,7 @@ ModelImporter:
     bakeSimulation: 0
     resampleCurves: 1
     optimizeGameObjects: 0
+    removeConstantScaleCurves: 0
     motionNodeName: 
     rigImportErrors: 
     rigImportWarnings: 
@@ -198,6 +507,7 @@ ModelImporter:
     - serializedVersion: 16
       name: walk
       takeName: walk
+      internalID: 0
       firstFrame: 1
       lastFrame: 28
       wrapMode: 0
@@ -226,6 +536,7 @@ ModelImporter:
     - serializedVersion: 16
       name: run
       takeName: run
+      internalID: 0
       firstFrame: 41
       lastFrame: 102
       wrapMode: 0
@@ -254,6 +565,7 @@ ModelImporter:
     - serializedVersion: 16
       name: be hit
       takeName: be hit
+      internalID: 0
       firstFrame: 116
       lastFrame: 132
       wrapMode: 0
@@ -282,6 +594,7 @@ ModelImporter:
     - serializedVersion: 16
       name: scream
       takeName: scream
+      internalID: 0
       firstFrame: 143
       lastFrame: 210
       wrapMode: 0
@@ -310,6 +623,7 @@ ModelImporter:
     - serializedVersion: 16
       name: dance
       takeName: dance
+      internalID: 0
       firstFrame: 224
       lastFrame: 400
       wrapMode: 0
@@ -318,7 +632,7 @@ ModelImporter:
       cycleOffset: 0
       loop: 0
       hasAdditiveReferencePose: 0
-      loopTime: 0
+      loopTime: 1
       loopBlend: 0
       loopBlendOrientation: 0
       loopBlendPositionY: 0
@@ -334,10 +648,11 @@ ModelImporter:
       transformMask: []
       maskType: 3
       maskSource: {instanceID: 0}
-      additiveReferencePoseFrame: 0
+      additiveReferencePoseFrame: 224
     - serializedVersion: 16
       name: die
       takeName: die
+      internalID: 0
       firstFrame: 414
       lastFrame: 476
       wrapMode: 0
@@ -366,6 +681,7 @@ ModelImporter:
     - serializedVersion: 16
       name: jump
       takeName: jump
+      internalID: 0
       firstFrame: 488
       lastFrame: 509
       wrapMode: 0
@@ -394,6 +710,7 @@ ModelImporter:
     - serializedVersion: 16
       name: attack
       takeName: attack
+      internalID: 0
       firstFrame: 523
       lastFrame: 558
       wrapMode: 0
@@ -422,6 +739,7 @@ ModelImporter:
     - serializedVersion: 16
       name: disappointed
       takeName: disappointed
+      internalID: 0
       firstFrame: 571
       lastFrame: 672
       wrapMode: 0
@@ -450,6 +768,7 @@ ModelImporter:
     - serializedVersion: 16
       name: idle
       takeName: idle
+      internalID: 0
       firstFrame: 684
       lastFrame: 1083
       wrapMode: 0
@@ -478,6 +797,7 @@ ModelImporter:
     - serializedVersion: 16
       name: greet
       takeName: greet
+      internalID: 0
       firstFrame: 1100
       lastFrame: 1221
       wrapMode: 0
@@ -510,25 +830,34 @@ ModelImporter:
     meshCompression: 0
     addColliders: 0
     useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
     importVisibility: 1
     importBlendShapes: 1
     importCameras: 1
     importLights: 1
+    nodeNameCollisionStrategy: 0
+    fileIdsGeneration: 1
     swapUVChannels: 0
     generateSecondaryUV: 0
     useFileUnits: 1
-    optimizeMeshForGPU: 1
     keepQuads: 0
     weldVertices: 1
+    bakeAxisConversion: 0
     preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    optimizeBones: 1
+    meshOptimizationFlags: -1
     indexFormat: 0
     secondaryUVAngleDistortion: 8
     secondaryUVAreaDistortion: 15.000001
     secondaryUVHardAngle: 88
+    secondaryUVMarginMethod: 0
+    secondaryUVMinLightmapResolution: 40
+    secondaryUVMinObjectScale: 1
     secondaryUVPackMargin: 4
     useFileScale: 1
-    previousCalculatedGlobalScale: 0.01
-    hasPreviousCalculatedGlobalScale: 1
   tangentSpace:
     normalSmoothAngle: 60
     normalImportMode: 0
@@ -537,10 +866,10 @@ ModelImporter:
     legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
     blendShapeNormalImportMode: 1
     normalSmoothingSource: 0
+  referencedClips: []
   importAnimation: 1
-  copyAvatar: 0
   humanDescription:
-    serializedVersion: 2
+    serializedVersion: 3
     human: []
     skeleton: []
     armTwist: 0.5
@@ -550,13 +879,18 @@ ModelImporter:
     armStretch: 0.05
     legStretch: 0.05
     feetSpacing: 0
+    globalScale: 1
     rootMotionBoneName: 
     hasTranslationDoF: 0
     hasExtraRoot: 0
     skeletonHasParents: 1
   lastHumanDescriptionAvatarSource: {instanceID: 0}
+  autoGenerateAvatarMappingIfUnspecified: 1
   animationType: 2
   humanoidOversampling: 1
+  avatarSetup: 1
+  addHumanoidExtraRootOnlyWhenUsingAvatar: 0
+  remapMaterialsIfMaterialImportModeIsNone: 1
   additionalBone: 0
   userData: 
   assetBundleName: 
