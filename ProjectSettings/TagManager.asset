@@ -5,6 +5,10 @@ TagManager:
   serializedVersion: 2
   tags:
   - CinemachineTarget
+  - inven
+  - GaugePoint
+  - CaveEntrance
+  - toForest
   layers:
   - Default
   - TransparentFX
